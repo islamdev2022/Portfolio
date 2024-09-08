@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-
+import { FlipWords } from "./ui/flip-words";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -42,8 +42,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 ">
+            Dynamic Portfolio Web Magic with Next.js
           </p>
 
           {/**
@@ -52,13 +52,18 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Bringing Ideas to Life with Smooth, User-Friendly Designs."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
-          </p>
+          <h1 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi! I&apos;m Birouk Islam, a
+            <FlipWords
+              words={["Web", "Frontend", "Software", "Fullstack"]}
+              className="text-red-400"
+            ></FlipWords>
+            Developer based in Jijel/Algeria.
+          </h1>
 
           <a href="#about">
             <MagicButton
