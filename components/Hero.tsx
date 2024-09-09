@@ -61,6 +61,7 @@ const Hero = () => {
             <FlipWords
               words={["Web", "Frontend", "Software", "Fullstack"]}
               className="text-red-400"
+              duration={1500}
             ></FlipWords>
             Developer based in Jijel/Algeria.
           </h1>
