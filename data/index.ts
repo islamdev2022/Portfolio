@@ -231,14 +231,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: "https://github.com/islamdev2022",
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    link: "https://www.instagram.com/islamo._.birouk/",
+    img: "/ig.svg",
   },
   {
     id: 3,
+    link: "https://www.linkedin.com/in/birouk-islam/",
     img: "/link.svg",
   },
 ];

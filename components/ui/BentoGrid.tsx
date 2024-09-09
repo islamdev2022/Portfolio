@@ -52,16 +52,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const first = ["HTML", "CSS", "JavaScript"];
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+
   const Frontend = ["HTML", "CSS","SCSS", "JavaScript", "ReactJS","NextJS", "Typescript", "TailwindCSS","Shadcn" , "Aceternity UI", "Material tailwindcss"
   ];
   const Backend =[ "NodeJS", "Express","NextJS", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase", "Socket.io"];
 
   const Others = [
-    "C", "Python" ,"Java","Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "NPM" ,
-
+    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Railway" , "Onrender" 
   ]
 
   const [copied, setCopied] = useState(false);
