@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "More", link: "#expertise" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "Who am I ?",
     description:
-      "My name is Birouk Mohammed Islam ,I'm 21 years old based in Jijel/Algeria , I study computer science at the university of Jijel. I have a bachelor Degree in computer science and I'm a self-taught Web developer. I build websites and web applications and softwars with a focus user experience. I'm currently looking for a job as a web developer. and I'm open to work on any project.",
+      "My name is Birouk Mohammed Islam, and I am a 21-year-old web developer based in Jijel, Algeria. I am currently pursuing a Master’s Degree in Legal Forensics and Multimedia at the University of Jijel and hold a Bachelor’s Degree in Computer Science. As a self-taught web developer, I specialize in building websites and web applications with a strong focus on user experience. I am actively seeking opportunities to contribute to innovative projects and am open to working on any exciting new ventures.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 7,
-    title: "want to start a project together?",
+    title: "Want to start a project together?",
     description: "",
     className:
       "lg:col-span-2 md:col-span-3 md:row-span-2 justify-center items-center flex",
@@ -127,7 +127,7 @@ export const projects = [
       "/icons8-mysql-logo-480.png",
       "/39b2e4ad77c23a2c11e5950a7dfa2aec.png",
     ],
-    link: "https://next-js-anime-store.vercel.app/",
+    link: "https://github.com/islamdev2022/next-e-commerce",
   },
 ];
 
@@ -200,31 +200,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
+    title: "My Skills & Interests",
+    desc: "As a web developer, I'm passionate about working on a variety of projects, including e-commerce platforms, landing pages, feedback websites, and educational platforms. I am proficient in a range of technologies, from front-end development with ReactJS, NextJS, TypeScript, and TailwindCSS to back-end development using NodeJS, MongoDB, MySQL, and Prisma ORM. I'm always eager to push my skills further, particularly in NextJS and Python, and I&apos;m excited to explore Laravel.",
+    className: "",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "What I'm Looking For",
+    desc: "I'm looking for opportunities where I can contribute to building innovative products with a focus on improving user experience. Whether it's developing accessible apps or working on scalable systems, I am driven by the chance to make a meaningful impact. I am open to any kind of job where I can continue to grow, collaborate, and take on new challenges.",
+    className: "",
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 

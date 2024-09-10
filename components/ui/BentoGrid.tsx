@@ -55,7 +55,7 @@ export const BentoGridItem = ({
 
   const Frontend = ["HTML", "CSS","SCSS", "JavaScript", "ReactJS","NextJS", "Typescript", "TailwindCSS","Shadcn" , "Aceternity UI", "Material tailwindcss"
   ];
-  const Backend =[ "NodeJS", "Express","NextJS", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase", "Socket.io"];
+  const Backend =[ "NodeJS", "Express","NextJS", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase"];
 
   const Others = [
     "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Railway" , "Onrender" 
@@ -118,7 +118,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
+        {id === 7 && (
           // add background animation , remove the p tag
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
@@ -132,7 +132,7 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-thin bg-slate-800 bg-opacity-30 pl-2 w-fit md:text-xs lg:text-base text-xs text-[#C1C2D3] z-10">
+          <div className="font-sans rounded-lg bg-slate-800 bg-opacity-40 pl-2 w-fit md:text-xs lg:text-base text-xs text-[#C1C2D3] z-10">
             {description}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
@@ -150,7 +150,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className=" flex flex-col justify-center gap-1 lg:gap-5 w-fit mt-8 ">
               {/* tech stack lists */}
-              <div className="flex flex-wrap justify-center gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-wrap justify-center sm:justify-center gap-3 md:gap-3 lg:gap-8">
                 {Frontend.map((item, i) => (
                   <span
                     key={i}
@@ -166,7 +166,7 @@ export const BentoGridItem = ({
           {id === 4 && (
             <div className=" flex flex-col justify-center gap-1 lg:gap-5 w-fit mt-8 ">
               {/* tech stack lists */}
-              <div className="flex flex-wrap justify-center gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-wrap justify-center sm:justify-center gap-3 md:gap-3 lg:gap-8">
                 {Backend.map((item, i) => (
                   <span
                     key={i}
@@ -182,7 +182,7 @@ export const BentoGridItem = ({
           {id === 5 && (
             <div className=" flex flex-col justify-center gap-1 lg:gap-5 w-fit mt-8 ">
               {/* tech stack lists */}
-              <div className="flex flex-wrap justify-center gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-wrap justify-center sm:justify-center gap-3 md:gap-3 lg:gap-8">
                 {Others.map((item, i) => (
                   <span
                     key={i}

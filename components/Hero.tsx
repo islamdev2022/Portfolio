@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FlipWords } from "./ui/flip-words";
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="h-screen flex justify-center">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -41,10 +41,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 ">
-            Dynamic Portfolio Web Magic with Next.js
-          </p>
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-evenly">
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
@@ -53,17 +50,15 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="Bringing Ideas to Life with Smooth, User-Friendly Designs."
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[35px] md:text-5xl lg:text-6xl"
           />
 
           <h1 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Birouk Islam, a
             <FlipWords
               words={["Web", "Frontend", "Software", "Fullstack"]}
-              className="text-red-400"
               duration={1500}
-            ></FlipWords>
-            Developer based in Jijel/Algeria.
+            />Developer based in Jijel/Algeria.
           </h1>
 
           <a href="#about">

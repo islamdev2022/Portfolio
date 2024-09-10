@@ -10,9 +10,9 @@ const RecentProjects = () => {
     <div className="py-20">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-blue-600">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -39,7 +39,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -64,10 +64,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a href={item.link} className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a href={item.link} className="flex lg:text-xl md:text-xs text-sm text-blue-500">
                     Check Live Site
                   </a>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#1f2effe6" />
                 </div>
               </div>
             </PinContainer>
