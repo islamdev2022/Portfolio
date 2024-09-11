@@ -7,10 +7,6 @@ import { FlipWords } from "./ui/flip-words";
 const Hero = () => {
   return (
     <div className="h-screen flex justify-center">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -42,12 +38,6 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-evenly">
-
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
             words="Bringing Ideas to Life with Smooth, User-Friendly Designs."
             className="text-center text-[35px] md:text-5xl lg:text-6xl"

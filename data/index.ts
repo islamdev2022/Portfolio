@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "Who am I ?",
     description:
-      "My name is Birouk Mohammed Islam, and I am a 21-year-old web developer based in Jijel, Algeria. I am currently pursuing a Master’s Degree in Legal Forensics and Multimedia at the University of Jijel and hold a Bachelor’s Degree in Computer Science. As a self-taught web developer, I specialize in building websites and web applications with a strong focus on user experience. I am actively seeking opportunities to contribute to innovative projects and am open to working on any exciting new ventures.",
+      "My name is Birouk Mohammed Islam, and I am a 21-year-old web developer based in Jijel, Algeria. I am currently pursuing a Master's Degree in Legal Forensics and Multimedia at the University of Jijel and hold a Bachelor’s Degree in Computer Science. As a self-taught web developer, I specialize in building websites and web applications with a strong focus on user experience. I am actively seeking opportunities to contribute to innovative projects and am open to working on any exciting new ventures.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -78,6 +78,7 @@ export const projects = [
     title: "Esperanza Club - Website",
     des: "A modern website for a my university club, that showcases the club's activities and events, built with Next.js and Tailwind CSS.",
     img: "/Screenshot 2024-09-09 154626.png",
+    check: "Check Live Site",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -92,6 +93,7 @@ export const projects = [
     title: "Medical Analytics laboratory Software",
     des: "A web-based (Electron js) software for a medical analytics laboratory, that helps manage patients' data and lab results.",
     img: "/Screenshot 2024-05-17 191545.png",
+    check: "Check LinkedIn Post",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -106,6 +108,7 @@ export const projects = [
     title: "Question and Answer web app",
     des: "A website that tests users on their knowledge of a specific topic,and practice their css skills built with MERN stack and Tailwind CSS.",
     img: "/Screenshot 2024-09-09 155137.png",
+    check: "Check Live Site",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -120,6 +123,7 @@ export const projects = [
     title: "Anime Figure Store with dashboard",
     des: "An e-commerce website for an anime figure store, with an admin dashboard to manage products and orders, built with Next.js and Tailwind CSS.",
     img: "/Screenshot 2024-09-09 154517.png",
+    check: "Check Live Site",
     iconLists: [
       "/next.svg",
       "/tail.svg",
