@@ -219,7 +219,7 @@ export const workExperience = [
   {
     id: 1,
     title: "My Skills & Interests",
-    desc: "As a web developer, I'm passionate about working on a variety of projects, including e-commerce platforms, landing pages, feedback websites, and educational platforms. I am proficient in a range of technologies, from front-end development with ReactJS, NextJS, TypeScript, and TailwindCSS to back-end development using NodeJS, MongoDB, MySQL, and Prisma ORM. I'm always eager to push my skills further, particularly in NextJS and Python, and I&apos;m excited to explore Laravel.",
+    desc: "As a web developer, I'm passionate about working on a variety of projects, including e-commerce platforms, landing pages, feedback websites, and educational platforms. I am proficient in a range of technologies, from front-end development with ReactJS, NextJS, TypeScript, and TailwindCSS to back-end development using NodeJS, MongoDB, MySQL, and Prisma ORM. I'm always eager to push my skills further, particularly in NextJS and Python, and I'm excited to explore Laravel.",
     className: "",
     thumbnail: "/exp1.svg",
   },
