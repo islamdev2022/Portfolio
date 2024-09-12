@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -133,73 +135,85 @@ export const projects = [
     ],
     link: "https://github.com/islamdev2022/next-e-commerce",
   },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    title: "WebSite Scrapper with python",
+    des: "this is a python script that scraps the data from the university of jijel official website that extract all the informations of Computer Science Master degree specialties with the courses names and teachers",
+    img: "/do-web-scraping-data-mining-data-harvesting-and-data-extracting-using-python.png",
+    check: "Check Github Repo",
+    iconLists: ["/python.png"],
+    link: "https://github.com/islamdev2022/Web-Scraping-for-Master-Degree-Specialties-data-of-Jijel-university",
+  },
+  {
+    id: 6,
+    title: "Telegram-Bot-Quotes",
+    des: "A telegram bot that sends you a random quote every day or whatever you desire, built with Python with the help of the telegram API and the quotes API.",
+    img: "/_cae479a4-40f9-4d38-8130-9dba498e7467.jpg",
+    check: "Check github Repo",
+    iconLists: ["/python.png"],
+    link: "https://github.com/islamdev2022/Telegram-Bot-Quotes",
+  },
+  {
+    id: 7,
+    title: "REST-Countries website",
+    des: "This is a challenge form frontendmetor.com where the user can search and navigates countries and see the country details .",
+    img: "/Screenshot 2024-09-12 010312.png",
+    check: "Check Live Site",
+    iconLists: ["/re.svg", "/icons8-css3-480.png"],
+    link: "https://rest-countries-islamdev2022.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "IP Address Tracker",
+    des: "A simple website that tracks the IP address of the user and shows the location of the IP address on the map.",
+    img: "/Screenshot 2024-09-12 012217.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/icons8-html-5-480.png",
+      "/icons8-css3-480.png",
+      "/icons8-javascript-480.png",
+    ],
+    link: "https://islamdev2022.github.io/ip-address-tracker-master/",
+  },
+  {
+    id: 9,
+    title: "Weather App",
+    des: "A simple weather app that shows the weather of the city that the user inputs.",
+    img: "/Screenshot 2024-09-12 013901.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/icons8-html-5-480.png",
+      "/icons8-css3-480.png",
+      "/icons8-javascript-480.png",
+    ],
+    link: "https://islamdev2022.github.io/Weather-app/",
+  },
+  {
+    id: 11,
+    title: "Password Generator",
+    des: "A simple website that generates a random password with the length and the type of the characters that the user chooses.",
+    img: "/Screenshot 2024-09-12 014819.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/re.svg",
+      "/icons8-css3-480.png",
+    ],
+  },
+  {
+    id: 10,
+    title: "To do List",
+    des: "This is a challenge from frontendmentor.com todo-app-mainwhere the user can add tasks to do and remove it and there is the dark and light mode and the tasks are saved in the local storage in the browser",
+    img: "/Screenshot 2024-09-12 014449.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/icons8-html-5-480.png",
+      "/icons8-css3-480.png",
+      "/icons8-javascript-480.png",
+    ],
+    link: "https://islamdev2022.github.io/todo-app-main/",
   },
 ];
+
 
 export const workExperience = [
   {

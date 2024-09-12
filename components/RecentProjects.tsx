@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <section className="py-20" id="myWork">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-blue-600">recent projects</span>
@@ -18,20 +18,11 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.title}
-              href={item.link}
-            >
+            <PinContainer title={item.title} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-
                 <a href={item.link}>
-                  <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 "
-                />
+                  <img src={item.img} alt="cover" className="z-10 " />
                 </a>
-                
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -50,7 +41,7 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {item.iconLists?.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -64,7 +55,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a href={item.link} className="flex lg:text-xl md:text-xs text-sm text-blue-500">
+                  <a
+                    href={item.link}
+                    className="flex lg:text-xl md:text-xs text-sm text-blue-500"
+                  >
                     {item.check}
                   </a>
                   <FaLocationArrow className="ms-3" color="#1f2effe6" />
@@ -74,7 +68,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -51,7 +51,7 @@ const Hero = () => {
             />Developer based in Jijel/Algeria.
           </h1>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
