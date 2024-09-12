@@ -12,10 +12,10 @@ export const gridItems = [
     id: 1,
     title: "Who am I ?",
     description:
-      "My name is Birouk Mohammed Islam, and I am a 21-year-old web developer based in Jijel, Algeria. I am currently pursuing a Master's Degree in Legal Forensics and Multimedia at the University of Jijel and hold a Bachelor’s Degree in Computer Science. As a self-taught web developer, I specialize in building websites and web applications with a strong focus on user experience. I am actively seeking opportunities to contribute to innovative projects and am open to working on any exciting new ventures.",
+      "My name is Birouk Mohammed Islam, and I am a 21-year-old web developer based in Jijel, Algeria. I am currently pursuing a Master's Degree in Legal Forensics and Multimedia at the University of Jijel and hold a Bachelor's Degree in Computer Science. As a self-taught web developer, I specialize in building websites and web applications with a strong focus on user experience. I am actively seeking opportunities to contribute to innovative projects and am open to working on any exciting new ventures.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
+    titleClassName: "justify-end dark:text-white text-white",
     img: "/DSC_1491.jpg",
     spareImg: "",
   },
@@ -68,7 +68,7 @@ export const gridItems = [
       "lg:col-span-2 md:col-span-3 md:row-span-2 justify-center items-center flex",
     imgClassName: "",
     titleClassName:
-      "justify-center items-center md:max-w-full max-w-60 text-center",
+      "justify-center items-center md:max-w-full max-w-60 text-center text-white ",
     img: "",
     spareImg: "",
   },

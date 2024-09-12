@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
+import { ModeToggle } from "./ToggleTheme";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -42,7 +42,7 @@ const Hero = () => {
             words="Bringing Ideas to Life with Smooth, User-Friendly Designs."
             className="text-center text-[35px] md:text-5xl lg:text-6xl"
           />
-
+          <ModeToggle />
           <h1 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Birouk Islam, a
             <FlipWords

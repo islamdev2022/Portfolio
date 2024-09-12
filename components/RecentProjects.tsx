@@ -12,10 +12,10 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-blue-600">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-10 ">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] "
             key={item.id}
           >
             <PinContainer title={item.title} href={item.link}>
@@ -41,10 +41,10 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists?.map((icon, index) => (
+                  {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full dark:bg-black bg-slate-200 lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
