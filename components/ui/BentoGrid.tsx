@@ -126,7 +126,13 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className={`font-sans rounded-lg ${id === 3 || id === 4 || id === 5 ? "":"bg-slate-600 text-[#C1C2D3]"} bg-opacity-40 pl-2 w-fit md:text-xs lg:text-base text-xs  z-10 pr-1`}>
+          <div
+            className={`font-sans rounded-lg ${
+              id === 3 || id === 4 || id === 5
+                ? ""
+                : "bg-slate-600 text-[#C1C2D3]"
+            } bg-opacity-40 pl-2 w-fit md:text-xs lg:text-base text-xs  z-10 pr-1 mix-blend-exclusion`}
+          >
             {description}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
