@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
-
+import Image from "next/image";
 const RecentProjects = () => {
   return (
     <section className="py-20" id="myWork">
@@ -21,7 +21,13 @@ const RecentProjects = () => {
             <PinContainer title={item.title} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <a href={item.link}>
-                  <img src={item.img} alt="cover" className="z-10 " />
+                  <Image
+                    width={500}
+                    height={500}
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 "
+                  />
                 </a>
               </div>
 
@@ -49,7 +55,13 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        width={500}
+                        height={500}
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
