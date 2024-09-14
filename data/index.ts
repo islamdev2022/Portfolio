@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -125,7 +123,7 @@ export const projects = [
     title: "Anime Figure Store with dashboard",
     des: "An e-commerce website for an anime figure store, with an admin dashboard to manage products and orders, built with Next.js and Tailwind CSS.",
     img: "/Screenshot 2024-09-09 154517.png",
-    check: "Check Live Site",
+    check: "Check Github Repo",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -189,18 +187,16 @@ export const projects = [
     link: "https://islamdev2022.github.io/Weather-app/",
   },
   {
-    id: 11,
+    id: 10,
     title: "Password Generator",
     des: "A simple website that generates a random password with the length and the type of the characters that the user chooses.",
     img: "/Screenshot 2024-09-12 014819.png",
     check: "Check Live Site",
-    iconLists: [
-      "/re.svg",
-      "/icons8-css3-480.png",
-    ],
+    iconLists: ["/re.svg", "/icons8-css3-480.png"],
+    link: "https://password-generator-pi-umber.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "To do List",
     des: "This is a challenge from frontendmentor.com todo-app-mainwhere the user can add tasks to do and remove it and there is the dark and light mode and the tasks are saved in the local storage in the browser",
     img: "/Screenshot 2024-09-12 014449.png",
@@ -211,6 +207,32 @@ export const projects = [
       "/icons8-javascript-480.png",
     ],
     link: "https://islamdev2022.github.io/todo-app-main/",
+  },
+  {
+    id: 12,
+    title: "Advice generator website",
+    des: "This is a challenge from frontendmentor.com advice-generator-app that generate advice and quotes where I used pure html css javascript without frameworks using an api from adviceslip.com",
+    img: "/Screenshot 2024-09-14 020437.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/icons8-html-5-480.png",
+      "/icons8-css3-480.png",
+      "/icons8-javascript-480.png",
+    ],
+    link: "https://islamdev2022.github.io/advice-generator-app/",
+  },
+  {
+    id: 13,
+    title: "Calculator App",
+    des: "This is a challenge from frontendmentor.com calculator-app-main where there are 3 themes to switch",
+    img: "/Screenshot 2024-09-14 020711.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/icons8-html-5-480.png",
+      "/icons8-css3-480.png",
+      "/icons8-javascript-480.png",
+    ],
+    link: "https://islamdev2022.github.io/calculator-app-main/",
   },
 ];
 

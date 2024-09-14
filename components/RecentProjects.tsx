@@ -5,15 +5,25 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image";
+import { useState } from "react";
+import MagicButton from "./MagicButton";
 const RecentProjects = () => {
+const [number, setNumber] = useState(6);
+const numberOfProjects = projects.length;
+const showMoreProjects = () => {
+  setNumber(numberOfProjects);
+}
+const showLessProjects = () => {
+  setNumber(6);
+}
   return (
-    <section className="py-20" id="myWork">
+    <section className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-blue-600">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-10 ">
-        {projects.map((item) => (
+        {projects.slice(0,number).map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] "
             key={item.id}
@@ -79,7 +89,26 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
+        
       </div>
+      <div className="flex justify-center">
+        {number < numberOfProjects ? 
+          <MagicButton
+            title="Show more"
+            icon={<FaLocationArrow />}
+            position="right"
+            handleClick={showMoreProjects}
+          />
+           : 
+           <MagicButton
+          title="Show Less"
+          icon={<FaLocationArrow />}
+          position="right"
+          handleClick={showLessProjects}
+        />}
+        
+      </div>
+      
     </section>
   );
 };
