@@ -78,9 +78,9 @@ export const projects = [
     title:
       "Extention to automate the process of certification for intergration of SATIM",
     des: "This project is in hackwave Hackathon , The goal of this project is to fully automate the certification process for web merchants on the CIBWEB platform. Currently, this process is manual, leading to relatively long certification times. Automation will significantly reduce these delays and optimize the testing and validation steps. We developed a Chrome extension that handles the three steps, from the first step of integrating SATIM's payment platform to the final step, improving the efficiency of validation by automating message management.",
-    img: "Screenshot 2024-09-25 213145.png",
+    img: "/Screenshot 2024-09-25 213145.png",
     check: "Check Linkedin Post",
-    iconLists: ["re.svg", "tail.svg", "/icons8-nodejs-480.png"],
+    iconLists: ["/re.svg", "/tail.svg", "/icons8-nodejs-480.png"],
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7244646971964026882/",
   },
   {
