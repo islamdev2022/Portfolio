@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       description:
         "This is my portfolio website built with Next.js and Tailwind CSS. that showcases my projects and skills.",
       type: "website",
-      url: "https://birouk-islam.vercel.app",
+      url: "https://islambirouk.space",
      siteName: "Birouk Med Islam | Portfolio",
     }
 };
