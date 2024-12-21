@@ -74,6 +74,15 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 15,
+    title: "Jijel Univ Course-Hub",
+    des: "A website that helps students at the University of Jijel find all the courses they need in one place (especialy for Computer science students), built with Next.js and Tailwind CSS.",
+    img: "/Screenshot 2024-12-12 190707.png",
+    check: "Check Live Site",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://jijel-univ-course-hub.vercel.app/",
+  },
+  {
     id: 14,
     title:
       "Extention to automate the process of certification for intergration of SATIM",
