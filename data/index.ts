@@ -74,6 +74,21 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 16,
+    title: "Typing Speed Battle",
+    des: "A website that allows users to test their typing speed by competing with other users, built with Next.js and Tailwind CSS.",
+    img: "Screenshot 2025-02-15 001245.png",
+    check: "Check Live Site",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/icons8-mongodb-480.png",
+      "/icons8-nodejs-480.png",
+    ],
+    link: "https://typing-battle-six.vercel.app/",
+  },
+  {
     id: 15,
     title: "Jijel Univ Course-Hub",
     des: "A website that helps students at the University of Jijel find all the courses they need in one place (especialy for Computer science students), built with Next.js and Tailwind CSS.",
