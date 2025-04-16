@@ -74,6 +74,20 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 17,
+    title: "Secured chat app E2E and P2P",
+    des: "A secured chat app that uses end-to-end encryption and peer-to-peer communication, built with React.js and Tailwind CSS.",
+    img: "/Screenshot 2025-04-17 001850.png",
+    check: "check linkedin post",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/icons8-mongodb-480.png",
+      "/icons8-nodejs-480.png",
+    ],
+    link: "https://www.linkedin.com/posts/birouk-islam_just-wrapped-up-and-published-a-project-i-activity-7317221495565422592-blpb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7a4GgB4JT7Jd3-ZiYscTVwMKiw8mu0Vgg",
+  },
+  {
     id: 16,
     title: "Typing Speed Battle",
     des: "A website that allows users to test their typing speed by competing with other users, built with Next.js and Tailwind CSS.",
