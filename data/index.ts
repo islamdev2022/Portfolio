@@ -91,7 +91,7 @@ export const projects = [
     id: 16,
     title: "Typing Speed Battle",
     des: "A website that allows users to test their typing speed by competing with other users, built with Next.js and Tailwind CSS.",
-    img: "Screenshot 2025-02-15 001245.png",
+    img: "/Screenshot 2025-02-15 001245.png",
     check: "Check Live Site",
     iconLists: [
       "/next.svg",
