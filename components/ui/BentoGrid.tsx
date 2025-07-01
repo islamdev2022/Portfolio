@@ -56,10 +56,10 @@ export const BentoGridItem = ({
 
   const Frontend = ["HTML", "CSS","SCSS", "JavaScript", "ReactJS","NextJS", "Typescript", "TailwindCSS","Shadcn" , "Aceternity UI", "Material tailwindcss"
   ];
-  const Backend =[ "NodeJS", "Express","NextJS", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase"];
+  const Backend =[ "NodeJS", "Express","NextJS","Django", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase"];
 
   const Others = [
-    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Railway" , "Onrender" 
+    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Arduino" , "Cyber Security" 
   ]
 
   const [copied, setCopied] = useState(false);
@@ -134,7 +134,7 @@ export const BentoGridItem = ({
               id === 3 || id === 4 || id === 5
                 ? ""
                 : "bg-slate-600 text-[#C1C2D3]"
-            } bg-opacity-40 pl-2 w-fit md:text-xs lg:text-base text-xs  z-10 pr-1 mix-blend-exclusion`}
+            } bg-opacity-40 p-2 w-fit md:text-xs lg:text-base text-md  z-10 pr-1 dark:text-white text-slate-500 font-medium`}
           >
             {description}
           </div>

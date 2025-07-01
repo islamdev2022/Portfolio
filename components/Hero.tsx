@@ -25,7 +25,7 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-black-200 bg-slate-100 dark:bg-grid-white/[0.03] bg-grid-black-200/[0.09]
+        className="h-screen w-full dark:bg-slate-900 bg-slate-200 dark:bg-grid-white/[0.03] bg-grid-black-200/[0.09]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
@@ -39,16 +39,17 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-evenly">
           <TextGenerateEffect
-            words="Bringing Ideas to Life with Smooth, User-Friendly Designs."
+            words="Crafting web solutions — Beautiful Front & Robust Core."
             className="text-center text-[35px] md:text-5xl lg:text-6xl"
           />
           <ModeToggle />
-          <h1 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Birouk Islam, a
+          <h1 className="text-center md:tracking-wider mb-4 text-md font-medium md:text-lg lg:text-2xl">
+            Hi! I&apos;m Birouk Mohammed Islam, a
             <FlipWords
               words={["Web", "Frontend", "Software", "Fullstack"]}
               duration={1500}
-            />Developer based in Jijel/Algeria.
+            />
+            Developer based in Jijel/Algeria.
           </h1>
 
           <a href="#projects">
