@@ -74,6 +74,15 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 19,
+    title: "Moussaoui-Mounir Jewelry store Dashboard",
+    des: "An admin dashboard for a jewelry store that allows the admin to manage products, orders, and customers, built with Next.js and Tailwind CSS, I integrated the backend api using axios to fetch and crud data.",
+    img: "/image.png",
+    check: "Check Store",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://bijouteriemoussaouimounir.com/",
+  },
+  {
     id: 18,
     title: "Trex-Byte ",
     des: "Degital Solutions & Web Development Agency in Jijel Algeria",

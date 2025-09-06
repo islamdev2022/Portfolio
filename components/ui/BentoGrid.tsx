@@ -59,7 +59,7 @@ export const BentoGridItem = ({
   const Backend =[ "NodeJS", "Express","NextJS","Django", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase"];
 
   const Others = [
-    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Arduino" , "Cyber Security" 
+    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Arduino" , "CyberSecurity", "Docker" 
   ]
 
   const [copied, setCopied] = useState(false);
