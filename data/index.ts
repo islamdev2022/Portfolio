@@ -74,6 +74,35 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 20,
+    title: "Official Website for JSD (Local Football Club)",
+    des: "As Lead Full-Stack Developer, I built a modern, multilingual platform for Jeunesse Sportive Djidjelienne using Next.js, TypeScript, PostgreSQL, and Docker. It includes live match updates, player profiles, a role-based admin dashboard, and analytics — blending passion for my local club with cutting-edge web tech.",
+    img: "/Screenshot 2025-10-07 224358.png",
+    check: "Check Website",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/OIP (1).png",
+      "/postgresql.png",
+    ],
+    link: "https://jsdjijel.com/",
+  },
+  {
+    id: 20,
+    title: "Energical Jijel Portes – Store Management System",
+    des: "A freelance desktop app , built for a door manufacturing business transitioning from Excel and Word to a complete digital system. Built with Next.js, Electron, Prisma, and SQLite, it features secure authentication, complex product variant management, real-time stock tracking, automated PDF documents, and sales analytics — reducing order processing time by 70% and saving hours daily through automation.",
+    img: "/Screenshot 2025-09-24 021053.png",
+    check: "Check Linkedin Post",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/39b2e4ad77c23a2c11e5950a7dfa2aec.png",
+    ],
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7376709919254740992/",
+  },
+  {
     id: 19,
     title: "Moussaoui-Mounir Jewelry store Dashboard",
     des: "An admin dashboard for a jewelry store that allows the admin to manage products, orders, and customers, built with Next.js and Tailwind CSS, I integrated the backend api using axios to fetch and crud data.",
