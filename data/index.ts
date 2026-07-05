@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "More", link: "#expertise" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "Who am I ?",
     description:
-      "I'm Birouk Mohammed Islam, a 21-year-old web developer from Jijel, Algeria. I hold a Bachelor's in Computer Science and am currently pursuing a Master's in Legal Forensics and Multimedia. Alongside my studies, I'm interning at ELlabs and working as a freelance developer on several projects. I focus on creating user-friendly websites and web apps, and I'm always open to exciting new opportunities.",
+      "I'm Birouk Mohammed Islam, a self-taught web developer from Jijel, Algeria with 3 years of experience specializing in scalable, user-focused web applications. I hold a Bachelor's in Computer Science and a Master's in Computer Forensics and Multimedia. I've delivered 4+ client projects end-to-end as a freelancer, participated in JunctionXAlgiers 2025 and Hackwave 2.0 hackathons, and I'm also a cybersecurity enthusiast learning ethical hacking and penetration testing.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end dark:text-white text-white",
@@ -74,9 +74,24 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 21,
+    title: "UniStartups — Multi-Tenant SaaS Platform",
+    des: "Master's graduation project. Led a 6-person team as Lead Developer and Project Manager to build a multi-tenant SaaS platform for digitizing university incubator management. Features: project admission workflows, real-time messaging, RBAC (5 roles), multi-tenant isolation, Kanban boards, dual-channel notifications (in-app + email), appointment scheduling, training sessions with QR attendance, project search with duplicate detection, public archive, bilingual Ar/Fr RTL, PWA support.",
+    img: "/unistartups.png",
+    check: "View Project",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nest-js-icon.png",
+      "/postgresql.png",
+    ],
+    link: "https://unistartups.vercel.app/",
+  },
+  {
     id: 20,
     title: "Official Website for JSD (Local Football Club)",
-    des: "As Lead Full-Stack Developer, I built a modern, multilingual platform for Jeunesse Sportive Djidjelienne using Next.js, TypeScript, PostgreSQL, and Docker. It includes live match updates, player profiles, a role-based admin dashboard, and analytics — blending passion for my local club with cutting-edge web tech.",
+    des: "Built a full-scale digital platform for a professional football club, including dynamic match management, news publishing, player profiles, and a custom admin dashboard. Led end-to-end development using Next.js 15, TypeScript, Tailwind CSS, PostgreSQL (Drizzle ORM), NextAuth.js, and Dokploy for CI/CD and deployment. Integrated analytics, SEO optimization, and ensured a fully responsive, scalable, and secure production environment.",
     img: "/Screenshot 2025-10-07 224358.png",
     check: "Check Website",
     iconLists: [
@@ -235,7 +250,7 @@ export const workExperience = [
   {
     id: 1,
     title: "My Skills & Interests",
-    desc: "As a full-stack web developer, I build diverse and practical applications—from e-commerce platforms and landing pages to educational tools and real-time interactive projects. I'm proficient in ReactJS, Next.js, TypeScript, TailwindCSS, Node.js, MongoDB, MySQL, and Prisma ORM, and I often integrate tools like Supabase, my work. I have a strong passion for learning, problem-solving, and turning ideas into polished products. Beyond development, I’m a cybersecurity enthusiast and actively seek out opportunities to participate in hackathons—having already gained valuable experience from events like Hackwave. I'm always open to collaborating on meaningful projects and connecting with others in the tech community.",
+    desc: "As a full-stack web developer, I build diverse and practical applications—from e-commerce platforms and landing pages to educational tools and real-time interactive projects. I'm proficient in ReactJS, Next.js, TypeScript, TailwindCSS, Node.js, MongoDB, MySQL, and Prisma ORM, and I often integrate tools like Supabase. I have a strong passion for learning, problem-solving, and turning ideas into polished products. Beyond development, I'm a cybersecurity enthusiast and actively seek out opportunities to participate in hackathons—having already gained valuable experience from events like JunctionXAlgiers 2025 and Hackwave 2.0. I'm always open to collaborating on meaningful projects and connecting with others in the tech community.",
     className: "",
     thumbnail: "/exp1.svg",
   },
@@ -245,6 +260,27 @@ export const workExperience = [
     desc: "I'm looking for opportunities where I can contribute to building innovative products with a focus on improving user experience. Whether it's developing accessible apps or working on scalable systems, I am driven by the chance to make a meaningful impact. I am open to any kind of job where I can continue to grow, collaborate, and take on new challenges.",
     className: "",
     thumbnail: "/exp2.svg",
+  },
+];
+
+export const experienceTimeline = [
+  {
+    id: 1,
+    title: "Full Stack Developer — Temacina.com",
+    period: "November 2025 – January 2026",
+    desc: "Developed and maintained scalable web applications using Next.js 15, TypeScript, and Express.js. Implemented responsive UI components with Tailwind CSS and managed state across complex application flows. Integrated RESTful APIs and optimized application performance for production environments.",
+  },
+  {
+    id: 2,
+    title: "Frontend Developer Intern — ELLABS",
+    period: "June 2025 – September 2025",
+    desc: "Implemented pixel-perfect UI/UX designs from Figma for the company landing page using modern frontend technologies. Ensured cross-browser compatibility and responsive design across all devices.",
+  },
+  {
+    id: 3,
+    title: "Freelance Web Developer",
+    period: "2023 – Present",
+    desc: "Delivered 4+ client projects end-to-end, including full-scale platforms for businesses transitioning to digital. Specialized in Next.js, TypeScript, and modern full-stack architecture. Experience in Agile development with Kanban boards.",
   },
 ];
 

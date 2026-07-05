@@ -29,17 +29,17 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
+          100: "#020617",
+          200: "rgba(15, 23, 42, 0.7)",
           300: "rgba(255, 255, 255, 0.125)",
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#CBD5E1",
+          200: "#94A3B8",
         },
         blue: {
-          "100": "#E4ECFF",
+          "100": "#E0E7FF",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",

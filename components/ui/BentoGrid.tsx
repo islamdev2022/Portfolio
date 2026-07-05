@@ -1,17 +1,16 @@
 'use client'
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
 
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlobe";
-import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import LottieWrapper from "./LottieWrapper";
+
+const GridGlobe = dynamic(() => import("./GridGlobe"), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -54,24 +53,15 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
 
-  const Frontend = ["HTML", "CSS","SCSS", "JavaScript", "ReactJS","NextJS", "Typescript", "TailwindCSS","Shadcn" , "Aceternity UI", "Material tailwindcss"
+  const Frontend = ["HTML5", "CSS3", "JavaScript", "TypeScript", "ReactJS", "NextJS", "Tailwind CSS", "Electron JS", "PWA", "React Query"
   ];
-  const Backend =[ "NodeJS", "Express","NextJS","Django", "MongoDB", "MySQL", "Prisma ORM","Drizzle ORM","REST API",  "Supabase"];
+  const Backend = ["NodeJS", "Nest JS", "Express JS", "Django", "PostgreSQL", "MySQL", "MongoDB", "Drizzle ORM", "Prisma ORM"];
 
   const Others = [
-    "C", "Python" ,"Java","Electron JS", "Git","Github","XAMPP" , "Postman" , "Visual Studio code" , "Vercel", "Arduino" , "CyberSecurity", "Docker" 
+    "Git", "Github", "Docker", "CI/CD (Dokploy)", "WebSockets", "Postman", "Vercel", "CyberSecurity"
   ]
 
   const [copied, setCopied] = useState(false);
-
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "islam.birouk.2004@gmail.com";
@@ -82,8 +72,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        // remove p-4 rounded-3xl  dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
-        "dark:bg-black-200 bg-slate-100 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento shadow-2xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "dark:bg-black-200 bg-white row-span-1 relative overflow-hidden rounded-3xl border border-blue-600/10 group/bento shadow-lg hover:shadow-xl hover:border-blue-600/20 transition-all duration-300 dark:shadow-none justify-between flex flex-col space-y-4",
         className
       )}
     >
@@ -158,7 +147,7 @@ export const BentoGridItem = ({
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
-                    lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-slate-300 "
+                    lg:opacity-100 rounded-lg text-center dark:bg-blue-600/10 bg-slate-100 dark:text-blue-300 border border-blue-600/10"
                   >
                     {item}
                   </span>
@@ -173,8 +162,8 @@ export const BentoGridItem = ({
                 {Backend.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-slate-300"
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
+                    lg:opacity-100 rounded-lg text-center dark:bg-blue-600/10 bg-slate-100 dark:text-blue-300 border border-blue-600/10"
                   >
                     {item}
                   </span>
@@ -189,8 +178,8 @@ export const BentoGridItem = ({
                 {Others.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center dark:bg-[#10132E] bg-slate-300"
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
+                    lg:opacity-100 rounded-lg text-center dark:bg-blue-600/10 bg-slate-100 dark:text-blue-300 border border-blue-600/10"
                   >
                     {item}
                   </span>
@@ -209,8 +198,7 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <LottieWrapper loop={copied} autoplay={copied} height={200} width={400} />
               </div>
 
               <MagicButton
@@ -218,7 +206,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!text-white"
+                otherClasses="text-black"
               />
             </div>
           )}
