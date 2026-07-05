@@ -74,7 +74,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 21,
+    id: 22,
     title: "UniStartups — Multi-Tenant SaaS Platform",
     des: "Master's graduation project. Led a 6-person team as Lead Developer and Project Manager to build a multi-tenant SaaS platform for digitizing university incubator management. Features: project admission workflows, real-time messaging, RBAC (5 roles), multi-tenant isolation, Kanban boards, dual-channel notifications (in-app + email), appointment scheduling, training sessions with QR attendance, project search with duplicate detection, public archive, bilingual Ar/Fr RTL, PWA support.",
     img: "/unistartups.png",
@@ -87,6 +87,20 @@ export const projects = [
       "/postgresql.png",
     ],
     link: "https://unistartups.vercel.app/",
+  },
+  {
+    id: 21,
+    title: "Castel Home - an end to end e-commerce website for a local business",
+    des: "A full-scale e-commerce platform for a local business, featuring product management, shopping cart, secure checkout, and order tracking. Built with Next.js 15, TypeScript, Tailwind CSS, PostgreSQL (Drizzle ORM), NextAuth.js for authentication, and Dokploy for CI/CD and deployment. Integrated analytics, SEO optimization, and ensured a fully responsive, scalable, and secure production environment.",
+    img: "/castelhome.png",
+    check: "View Project",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/postgresql.png",
+    ],
+    link: "https://castelhome.net/",
   },
   {
     id: 20,
@@ -281,6 +295,21 @@ export const experienceTimeline = [
     title: "Freelance Web Developer",
     period: "2023 – Present",
     desc: "Delivered 4+ client projects end-to-end, including full-scale platforms for businesses transitioning to digital. Specialized in Next.js, TypeScript, and modern full-stack architecture. Experience in Agile development with Kanban boards.",
+  },
+];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Computer Forensics and Multimedia Master Degree",
+    school: "Mohammed Seddik Benyahia - Jijel University",
+    period: "2024 – 2026",
+  },
+  {
+    id: 2,
+    degree: "Computer Science Bachelor Degree",
+    school: "Mohammed Seddik Benyahia - Jijel University",
+    period: "2021 – 2024",
   },
 ];
 

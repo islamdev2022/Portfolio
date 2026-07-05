@@ -5,6 +5,7 @@ import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import ExperienceTimeline from "@/components/ExperienceTimeline";
 import RecentProjects from "@/components/RecentProjects";
@@ -22,6 +23,7 @@ const HomePage = () => {
         <Grid />
         <RecentProjects />
         <ExperienceTimeline />
+        <Education />
         <Experience />
         <Suspense fallback={null}>
           <Approach />
